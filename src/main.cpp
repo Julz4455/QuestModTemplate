@@ -23,7 +23,7 @@ extern "C" void setup(ModInfo& info) {
     info.version = "0.1.0";
     modInfo = info;
 	
-    getModConfig().Init(modInfo);
+    get#{base_class_name}Config().Init(modInfo);
     getLogger().info("Completed setup!");
 }
 
