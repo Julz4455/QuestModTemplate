@@ -121,9 +121,7 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/libs": true,
-        "**/shared": true,
         "**/obj": true,
-        "**/better-practice*.zip": true,
         "*.ps1": true, // macOS Only
         // "*.sh": true, // Windows Only
         "*.backup": true
